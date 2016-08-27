@@ -7,8 +7,10 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-  <body>
-    <%= yield %>
+<body>
+		<%= link_to "home", root_path %>
+		<%= link_to "about us", about_path %>
+    	<%= yield %>
+    	
   </body>
 </html>
