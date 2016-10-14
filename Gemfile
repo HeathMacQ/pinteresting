@@ -35,7 +35,7 @@ gem 'devise', '~> 4.2.0'
 
 gem 'paperclip', '~> 4.2'
 
-gem 'aws-sdk', '~> 2.0'
+gem 'aws-sdk', '< 2.0'
 
 gem 'masonry-rails', '~> 0.2.0'
 
